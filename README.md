@@ -1,2 +1,2 @@
 # wedding-cite
-cite for wedding invitations
+site for wedding invitations
