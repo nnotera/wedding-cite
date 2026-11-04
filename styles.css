@@ -90,7 +90,7 @@ body {
     overflow: hidden
 }
     .hero-card:before, .hero-card:after {
-        content: "❄";
+        content: "";
         position: absolute;
         color: rgba(142,161,174,.45);
         font-size: 90px
@@ -187,13 +187,16 @@ h2 {
 }
 
 .details {
+    max-width: 600px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 300px 1fr;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-template-areas:
-        "a a"
-        "b c";
-    column-gap: 160px
+        "a"
+        "b"
+        "c";
+    column-gap: 25px
 }
 
     .item-a {
